@@ -1,0 +1,53 @@
+:root{
+    --heading: 600px;
+    --bodycopy: 18px;
+}
+
+@font-face {
+    font-family: 'neue_montrealmedium';
+    src: url('neuemontreal-medium-webfont.woff2') format('woff2'),
+         url('neuemontreal-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+  .container{
+    width:100vw;
+    height:100vh;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+  }
+    .box{
+      background-color:#0099da;
+      color:#b2fe0d;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:var(--heading);
+      font-family: 'Neue Montreal', serif;
+      object-fit: contain;
+    }
+
+    .two{
+        background-color: #ffa200;
+        color:#ffee00;
+    }
+
+    .three{
+        background-color: #ff00aa;
+        color: #c10000;
+    }
+
+    .four{
+        background-color: #ff5e00;
+        color:#5d11d8;
+    }
+  
