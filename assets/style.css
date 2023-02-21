@@ -1,5 +1,5 @@
 :root{
-    --heading: 600px;
+    --heading: 400px;
     --bodycopy: 18px;
 }
 
@@ -20,7 +20,6 @@
   .container{
     width:100vw;
     height:100vh;
-    background-color:#fff;
     display:grid;
     grid-template-columns: auto auto;
     grid-row: auto auto;
@@ -30,10 +29,10 @@
       color:#b2fe0d;
       display:flex;
       align-items:center;
+      object-fit: contain;
       justify-content:center;
       font-size:var(--heading);
       font-family: 'Neue Montreal', serif;
-      object-fit: contain;
     }
 
     .two{
