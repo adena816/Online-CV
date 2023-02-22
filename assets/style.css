@@ -1,52 +1,101 @@
-:root{
-    --heading: 400px;
-    --bodycopy: 18px;
-}
 
 @font-face {
     font-family: 'neue_montrealmedium';
-    src: url('neuemontreal-medium-webfont.woff2') format('woff2'),
-         url('neuemontreal-medium-webfont.woff') format('woff');
+    src: url('../font_1/neuemontreal-medium-webfont.woff2') format('woff2'),
+         url('../font_1/neuemontreal-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
 
-  .container{
-    width:100vw;
-    height:100vh;
-    display:grid;
-    grid-template-columns: auto auto;
-    grid-row: auto auto;
-  }
-    .box{
-      background-color:#0099da;
-      color:#b2fe0d;
-      display:flex;
-      align-items:center;
-      object-fit: contain;
-      justify-content:center;
-      font-size:var(--heading);
-      font-family: 'Neue Montreal', serif;
-    }
 
-    .two{
-        background-color: #ffa200;
-        color:#ffee00;
-    }
 
-    .three{
-        background-color: #ff00aa;
-        color: #c10000;
-    }
+section {
+  --columns: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 50vh;
+  overflow: hidden;
+}
 
-    .four{
-        background-color: #ff5e00;
-        color:#5d11d8;
-    }
-  
+h1 {  
+    font-family: 'neue_montrealmedium';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 500px;
+}
+
+p {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.box{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  object-fit: contain;
+  justify-content:center;
+}
+
+.one{
+    background-color:#0099da;
+}
+
+.two{
+    background-color: #ffa200;
+}
+
+.three{
+    background-color: #ff00aa;}
+
+.four{
+    background-color: #ff5e00;
+}
+
+.textone {
+    color:#5fef00;
+}
+
+.texttwo {
+    color:#ffee00;
+}
+
+.textthree {
+    color: #c10000;
+}
+
+.textfour {
+    color:#5d11d8;
+}
+
+.pone {
+    margin-left: 15vw;
+    margin-top: 1vh;
+    margin-right: 20vw;
+    position: absolute;
+}
+
+.ptwo {
+    margin-left: 60vw;
+    margin-top: 35vh;
+    margin-right: 20vw;
+    position: absolute;
+}
+
+.pthree {
+    margin-left: 20vw;
+    margin-top: 90vh;
+    margin-right: 20vw;
+    position: absolute;
+
+}
+
+.pfour {
+    margin-left: 70vw;
+    margin-right: 20vw;
+    margin-top: 70vh;
+    position: absolute;
+}
