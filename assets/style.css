@@ -28,7 +28,7 @@ h1 {
 
 p {
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 100%;
 }
 
@@ -73,7 +73,7 @@ p {
 
 .pone {
     margin-left: 15vw;
-    margin-top: 1vh;
+    margin-top: 5vh;
     margin-right: 20vw;
     position: absolute;
 }
